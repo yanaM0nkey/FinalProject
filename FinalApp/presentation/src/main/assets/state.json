@@ -1,0 +1,5 @@
+[
+  {"state": "New", "code": "1"},
+  {"state": "In Progress", "code": "2"},
+  {"state": "Done", "code": "3"}
+]

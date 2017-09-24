@@ -1,0 +1,13 @@
+[
+  {"percent": "0", "code": "1"},
+  {"percent": "10", "code": "2"},
+  {"percent": "20", "code": "3"},
+  {"percent": "30", "code": "4"},
+  {"percent": "40", "code": "5"},
+  {"percent": "50", "code": "6"},
+  {"percent": "60", "code": "7"},
+  {"percent": "70", "code": "8"},
+  {"percent": "80", "code": "9"},
+  {"percent": "90", "code": "10"},
+  {"percent": "100", "code": "11"}
+]

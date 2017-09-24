@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="name">Name</string>
+    <string name="percentOfCompletion">Percent of completion(%)</string>
+    <string name="state">State</string>
+    <string name="estimetedTime">Estimated time(hours)</string>
+    <string name="startDate">Start date</string>
+    <string name="dueDate">Due date</string>
+    <string name="Save">save</string>
+    <string name="Create">create</string>
+
+</resources>

@@ -7,12 +7,13 @@ import android.content.Intent;
 import android.databinding.ObservableField;
 import android.util.Log;
 
-import com.gmail.ioanna.data.GetPercentsFromJson;
-import com.gmail.ioanna.data.GetStateFromJson;
+
 import com.gmail.ioanna.data.db.DatabaseManager;
 import com.gmail.ioanna.data.dbEntity.Percents;
 import com.gmail.ioanna.data.dbEntity.State;
 import com.gmail.ioanna.data.dbEntity.Task;
+import com.gmail.ioanna.domain.interactions.GetPercentsFromJson;
+import com.gmail.ioanna.domain.interactions.GetStateFromJson;
 import com.gmail.ioanna.finalapp.base.BaseViewModel;
 import com.gmail.ioanna.finalapp.datePickers.DueDatePicker;
 import com.gmail.ioanna.finalapp.datePickers.StartDatePicker;

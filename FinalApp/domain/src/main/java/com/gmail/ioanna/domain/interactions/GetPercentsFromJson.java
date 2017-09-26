@@ -1,10 +1,10 @@
-package com.gmail.ioanna.data;
+package com.gmail.ioanna.domain.interactions;
 
 
 import android.app.Activity;
 import android.util.Log;
 
-import com.gmail.ioanna.data.dbEntity.State;
+import com.gmail.ioanna.data.dbEntity.Percents;
 import com.google.gson.Gson;
 
 import java.io.IOException;
@@ -12,16 +12,16 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-//вообще по хорошему надо класс пихать в domain
-public class GetStateFromJson {
 
-    public ArrayList<State> getState(Activity activity) {
+public class GetPercentsFromJson {
+
+    public ArrayList<Percents> getPercents(Activity activity) {
 
         String json;
 
         try {
-            InputStream stream = activity.getAssets().open("state.json");
-           // Log.e("ex1", stream.toString());
+            InputStream stream = activity.getAssets().open("percents.json");
+            // Log.e("ex1", stream.toString());
             int size = stream.available();
             byte[] buffer = new byte[size];
             stream.read(buffer);
@@ -33,7 +33,7 @@ public class GetStateFromJson {
             return null;
         }
 
-        State[] states = new Gson().fromJson(json, State[].class);
-        return new ArrayList<>(Arrays.asList(states));
+        Percents[] percents = new Gson().fromJson(json, Percents[].class);
+        return new ArrayList<>(Arrays.asList(percents));
     }
 }
